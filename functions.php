@@ -1,24 +1,24 @@
 <?php
 /**
- * Astra Child For Everyone Theme functions and definitions
+ * Syl Express BD Theme functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Astra Child For Everyone
+ * @package Syl Express BD
  * @since 1.0.0
  */
 
 /**
  * Define Constants
  */
-define( 'CHILD_THEME_ASTRA_CHILD_FOR_EVERYONE_VERSION', '1.0.0' );
+define( 'CHILD_THEME_SYL_EXPRESS_BD_VERSION', '1.0.0' );
 
 /**
  * Enqueue styles
  */
 function child_enqueue_styles() {
 
-	wp_enqueue_style( 'astra-child-for-everyone-theme-css', get_stylesheet_directory_uri() . '/style.css', array('astra-theme-css'), CHILD_THEME_ASTRA_CHILD_FOR_EVERYONE_VERSION, 'all' );
+	wp_enqueue_style( 'syl-express-bd-theme-css', get_stylesheet_directory_uri() . '/style.css', array('astra-theme-css'), CHILD_THEME_SYL_EXPRESS_BD_VERSION, 'all' );
 
 }
 
